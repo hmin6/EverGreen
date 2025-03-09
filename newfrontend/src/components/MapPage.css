@@ -1,0 +1,119 @@
+/* Center Page Content */
+.map-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  min-height: 100vh; /* Full screen height */
+  padding-top: 80px; /* Space for fixed navbar */
+  padding-bottom: 80px; /* Space for fixed footer */
+}
+
+/* Title Styling */
+.map-page h1 {
+  font-size: 36px;
+  color: #1B5E20; /* Deep forest green */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Input Fields */
+.map-input {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #2E7D32; /* Dark green */
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.map-input:focus {
+  border-color: #81C784; /* Lighter green */
+}
+
+/* Buttons */
+.map-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #2E7D32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.map-button:hover {
+  background: #1B5E20; /* Darker green */
+}
+
+/* Error Messages */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Google Map Container */
+.map-container {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Data API Input Section */
+.data-input-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #F1F8E9; /* Light green background */
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Data Input Fields */
+.data-input {
+  width: 80%;
+  padding: 10px;
+  font-size: 14px;
+  margin: 5px;
+  border: 1px solid #388E3C;
+  border-radius: 5px;
+}
+
+.data-input:focus {
+  border-color: #66BB6A;
+}
+
+/* Submit Data Button */
+.data-submit-button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #2E7D32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.data-submit-button:hover {
+  background: #1B5E20;
+}

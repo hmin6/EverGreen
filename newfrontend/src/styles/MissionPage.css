@@ -1,0 +1,27 @@
+.mission-container {
+    text-align: center;
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 50px;
+    background: url('../../public/assets/image4.png');
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mission-container h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .mission-container p {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }  
